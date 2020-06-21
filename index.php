@@ -60,18 +60,17 @@ if ($_SERVER['HTTP_HOST'] == 'localhost:8000') {
 	define("DB_USERNAME", "");
 	define("DB_PASSWORD", "");
 	define("DB_NAME", "");
-	define("DB_HOSTNAME", "");
+	define("DB_HOSTNAME", "localhost");
 } else {
 	define("ENVIRONMENT", "production");
 	define("BASEURL", "");
 	define("DB_USERNAME", "");
 	define("DB_PASSWORD", "");
 	define("DB_NAME", "");
-	define("DB_HOSTNAME", "");
+	define("DB_HOSTNAME", "localhost");
 }
 
 
-/*
  *---------------------------------------------------------------
  * ERROR REPORTING
  *---------------------------------------------------------------
