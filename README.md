@@ -6,7 +6,7 @@
 
 ## Meta
 
-Rifqi Sambas Khairurrohman – rifqi.sera5.id
+Rifqi Sambas Khairurrohman – rifqi@sera5.id
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
