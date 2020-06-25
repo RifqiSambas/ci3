@@ -56,10 +56,13 @@
  */
 if ($_SERVER['HTTP_HOST'] == 'dev' || $_SERVER['HTTP_HOST'] == 'localhost') {
 	define('ENVIRONMENT', 'development');
+	define('HOST', 'http://localhost:8000/');
 } elseif ($_SERVER['HTTP_HOST'] == 'staging.example.com') {
 	define('ENVIRONMENT', 'staging');
+	define('HOST', 'http://staging.example.com/');
 } else {
 	define('ENVIRONMENT', 'production');
+	define('HOST', 'https://example.com/');
 }
 /*
  *---------------------------------------------------------------
