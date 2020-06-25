@@ -3,6 +3,7 @@
 - environment config
 - removed index.php
 - common dirs and files
+- auto local / server dev
 
 ## Meta
 
