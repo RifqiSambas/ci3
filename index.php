@@ -54,7 +54,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-if ($_SERVER['HTTP_HOST'] == 'dev' || $_SERVER['HTTP_HOST'] == 'localhost') {
+if ($_SERVER['HTTP_HOST'] == 'localhost:8000') {
 	define('ENVIRONMENT', 'development');
 	define('HOST', 'http://localhost:8000/');
 } elseif ($_SERVER['HTTP_HOST'] == 'staging.example.com') {
